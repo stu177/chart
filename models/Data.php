@@ -21,7 +21,7 @@ class Data extends Model
     /*
      * Relationships
      */
-    public $hasOne = [
+    public $belongsTo = [
         'dataset' => ['Stu177\Chart\Models\Dataset']
     ];
 }

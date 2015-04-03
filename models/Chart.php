@@ -22,11 +22,4 @@ class Chart extends Model
     public $hasMany = [
         'dataset' => ['Stu177\Chart\Models\Dataset']
     ];
-
-    public $hasManyThrough = [
-        'data' => [
-            'Stu177\Chart\Models\Data',
-            'through' => 'Stu177\Chart\Models\Dataset'
-        ],
-    ];
 }

@@ -9,7 +9,6 @@ dataset:
         toolbarButtons: create|delete
     manage:
         form: $/stu177/chart/models/dataset/fields.yaml
-
 data:
     label: Data
     view:

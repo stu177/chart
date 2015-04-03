@@ -5,3 +5,7 @@
 fields:
     label:
         label: Label
+    data:
+        label: Add Data
+        type: partial
+        path: field_data
