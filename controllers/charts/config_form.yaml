@@ -1,0 +1,17 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+name: Chart
+form: @/plugins/stu177/chart/models/chart/fields.yaml
+modelClass: Stu177\Chart\Models\Chart
+
+create:
+    title: Add Chart
+    flashSave: Added Chart!
+    redirect: stu177/chart/charts
+
+update:
+    title: Edit Chart
+    flashSave: Updated Chart!
+    redirectClose: stu177/chart/charts

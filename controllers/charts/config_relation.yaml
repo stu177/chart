@@ -1,0 +1,19 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+dataset:
+    label: Dataset
+    view:
+        list: $/stu177/chart/models/dataset/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/stu177/chart/models/dataset/fields.yaml
+
+data:
+    label: Data
+    view:
+        list: $/stu177/chart/models/data/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/stu177/chart/models/data/fields.yaml

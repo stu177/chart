@@ -1,0 +1,32 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+tabs:
+    fields:
+        name:
+            label: Label
+            span: left
+            tab: Info
+        description:
+            label: Description
+            span: right
+            tab: Info
+        type:
+            label: Type
+            span: left
+            tab: Info
+            type: dropdown
+            options:
+                bar: Bar
+                line: Line
+        dataset:
+            label: Add Datasets
+            type: partial
+            path: field_datasets
+            tab: Datasets
+        data:
+            label: Add Data
+            type: partial
+            path: field_data
+            tab: Data
