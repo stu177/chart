@@ -24,4 +24,5 @@ class Data extends Model
     public $belongsTo = [
         'dataset' => ['Stu177\Chart\Models\Dataset']
     ];
+
 }

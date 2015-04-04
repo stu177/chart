@@ -32,9 +32,15 @@ class Plugin extends PluginBase
                         'icon'        => 'icon-user',
                         'url'         => Backend::url('stu177/chart/charts'),
                         'permissions' => [''],
+                    ],
+                    'datasets' => [
+                        'label'       => 'Datasets',
+                        'icon'        => 'icon-user',
+                        'url'         => Backend::url('stu177/chart/datasets'),
+                        'permissions' => [''],
                     ]
                 ]
-            ]
+            ],
         ];
     }
 }

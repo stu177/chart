@@ -10,22 +10,23 @@ class Dataset extends Model
      * Validation
      */
     public $rules = [
-        'id' => 'unique:chart_data',
+        'id' => 'unique:chart_dataset',
         'chart_id' => 'exists:chart',
-        'label' => 'required|string|max:255'
+        'label' => 'required|string|max:255',
+        'data' => ''
     ];
 
     protected $fillable = [
         'label'
     ];
 
+    protected $jsonable = [
+        'data'
+    ];
+
     /*
      * Relationships
      */
-    public $hasMany = [
-        'data' => ['Stu177\Chart\Models\Data']
-    ];
-
     public $belongsTo = [
         'chart' => ['Stu177\Chart\Models\Chart']
     ];

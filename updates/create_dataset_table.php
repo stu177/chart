@@ -12,9 +12,10 @@ class CreateDatasetTable extends Migration
         {
             $table->engine = 'InnoDB';
             $table->increments('id');
-            $table->integer('chart_id')->unsigned();
+            $table->integer('chart_id')->unsigned()->nullable();
             $table->foreign('chart_id')->references('id')->on('chart');
             $table->string('label');
+            $table->mediumText('data');
             $table->timestamps();
         });
     }

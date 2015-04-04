@@ -1,0 +1,12 @@
+# ===================================
+#  List Behavior Config
+# ===================================
+
+title: Datasets
+list: ~/plugins/stu177/chart/models/dataset/columns.yaml
+modelClass: Stu177\Chart\Models\Dataset
+recordUrl: stu177/chart/datasets/update/:id
+noRecordsMessage: No datasets to display.
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar

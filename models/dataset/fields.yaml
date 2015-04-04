@@ -6,6 +6,10 @@ fields:
     label:
         label: Label
     data:
-        label: Add Data
-        type: partial
-        path: field_data
+        label: Data
+        type: datatable
+        columns:
+            x:
+                title: X value
+            y:
+                title: Y value

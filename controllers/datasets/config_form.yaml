@@ -1,0 +1,17 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+name: Dataset
+form: @/plugins/stu177/chart/models/dataset/fields.yaml
+modelClass: Stu177\Chart\Models\Dataset
+
+create:
+    title: Add Dataset
+    flashSave: Added Dataset!
+    redirect: stu177/chart/datasets
+
+update:
+    title: Edit Dataset
+    flashSave: Updated Dataset!
+    redirectClose: stu177/chart/datasets
