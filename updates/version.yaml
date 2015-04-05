@@ -2,4 +2,3 @@
     - Added chart, dataset and data migrations
     - create_chart_table.php
     - create_dataset_table.php
-    - create_data_table.php

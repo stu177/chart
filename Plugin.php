@@ -29,18 +29,25 @@ class Plugin extends PluginBase
                 'sideMenu' => [
                     'charts' => [
                         'label'       => 'Charts',
-                        'icon'        => 'icon-user',
+                        'icon'        => 'icon-bar-chart',
                         'url'         => Backend::url('stu177/chart/charts'),
                         'permissions' => [''],
                     ],
                     'datasets' => [
                         'label'       => 'Datasets',
-                        'icon'        => 'icon-user',
+                        'icon'        => 'icon-table',
                         'url'         => Backend::url('stu177/chart/datasets'),
                         'permissions' => [''],
                     ]
                 ]
             ],
+        ];
+    }
+
+    public function registerComponents()
+    {
+        return [
+            'Stu177\Chart\Components\Chart' => 'chart'
         ];
     }
 }

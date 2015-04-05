@@ -12,12 +12,12 @@ class Dataset extends Model
     public $rules = [
         'id' => 'unique:chart_dataset',
         'chart_id' => 'exists:chart',
-        'label' => 'required|string|max:255',
-        'data' => ''
+        'label' => 'required|string|max:255'
     ];
 
     protected $fillable = [
-        'label'
+        'label',
+        'data'
     ];
 
     protected $jsonable = [
