@@ -15,6 +15,7 @@ class CreateChartTable extends Migration
             $table->string('name');
             $table->text('description')->nullable();
             $table->string('type');
+            $table->mediumText('labels');
             $table->timestamps();
         });
     }

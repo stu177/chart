@@ -1,2 +1,21 @@
 <h3>My Chart</h3>
-<p>Chart Here</p>
+<canvas id="chart{{ chart.getChart.id }}" width="400" height="400"></canvas>
+
+<script>
+    $(document).ready(function(){
+        var ctx = document.getElementById("chart{{ chart.getChart.id }}").getContext("2d");
+        var data =  {
+            labels: [{{ chart.chartLabels|raw }}],
+            datasets: [
+                {{ chart.chartDatasets|raw }}
+            ]
+        };
+
+        var options = {
+            responsive: true,
+            maintainAspectRatio: false
+        };
+
+        new Chart(ctx).Line(data,options);
+    });
+</script>

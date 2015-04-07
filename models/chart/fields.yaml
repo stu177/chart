@@ -5,7 +5,7 @@
 tabs:
     fields:
         name:
-            label: Label
+            label: Chart Name
             span: left
             tab: Info
         description:
@@ -20,8 +20,16 @@ tabs:
             options:
                 bar: Bar
                 line: Line
+        labels:
+            label: Labels
+            tab: Labels
+            type: repeater
+            form:
+                fields:
+                    label:
+                        type: text
         dataset:
             label: Add Datasets
             type: partial
             path: field_datasets
-            tab: Datasets
+            tab: Data

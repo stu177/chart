@@ -4,12 +4,11 @@
 
 fields:
     label:
-        label: Label
+        label: Dataset Name
     data:
         label: Data
-        type: datatable
-        columns:
-            x:
-                title: X value
-            y:
-                title: Y value
+        type: repeater
+        form:
+            fields:
+                label:
+                    type: number

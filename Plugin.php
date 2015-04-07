@@ -32,12 +32,6 @@ class Plugin extends PluginBase
                         'icon'        => 'icon-bar-chart',
                         'url'         => Backend::url('stu177/chart/charts'),
                         'permissions' => [''],
-                    ],
-                    'datasets' => [
-                        'label'       => 'Datasets',
-                        'icon'        => 'icon-table',
-                        'url'         => Backend::url('stu177/chart/datasets'),
-                        'permissions' => [''],
                     ]
                 ]
             ],
