@@ -15,6 +15,7 @@ class CreateDatasetTable extends Migration
             $table->integer('chart_id')->unsigned()->nullable();
             $table->foreign('chart_id')->references('id')->on('chart');
             $table->string('label');
+            $table->string('colour');
             $table->mediumText('data');
             $table->timestamps();
         });

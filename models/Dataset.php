@@ -17,6 +17,7 @@ class Dataset extends Model
 
     protected $fillable = [
         'label',
+        'colour',
         'data'
     ];
 

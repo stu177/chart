@@ -13,7 +13,7 @@ class Chart extends Model
         'id' => 'unique:chart',
         'name' => 'required|string|max:255',
         'description' => '',
-        'type' => 'required|string|max:255'
+        'type' => 'string|max:255'
     ];
 
     protected $jsonable = [

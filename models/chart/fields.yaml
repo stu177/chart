@@ -12,14 +12,14 @@ tabs:
             label: Description
             span: right
             tab: Info
-        type:
-            label: Type
-            span: left
-            tab: Info
-            type: dropdown
-            options:
-                bar: Bar
-                line: Line
+#        type:
+#            label: Type
+#            span: left
+#            tab: Info
+#            type: dropdown
+#            options:
+#                line: Line
+#                bar: Bar
         labels:
             label: Labels
             tab: Labels

@@ -5,6 +5,11 @@
 fields:
     label:
         label: Dataset Name
+        span: left
+    colour:
+        label: Line Colour
+        type: colorpicker
+        span: right
     data:
         label: Data
         type: repeater

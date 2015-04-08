@@ -1,5 +1,5 @@
-<h3>My Chart</h3>
-<canvas id="chart{{ chart.getChart.id }}" width="400" height="400"></canvas>
+<h3>{{ chart.getChart.name }}</h3>
+<canvas id="chart{{ chart.getChart.id }}"></canvas>
 
 <script>
     $(document).ready(function(){
@@ -13,7 +13,7 @@
 
         var options = {
             responsive: true,
-            maintainAspectRatio: false
+            maintainAspectRatio: true
         };
 
         new Chart(ctx).Line(data,options);
