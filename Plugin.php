@@ -10,7 +10,7 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name' => 'Charts',
+            'name' => 'Chart',
             'description' => 'Makes charts.',
             'author' => 'stu177',
             'icon' => 'icon-bar-chart'

@@ -1,4 +1,5 @@
 1.0.1:
+    - Initial release of plugin
     - Added chart, dataset and data migrations
     - create_chart_table.php
     - create_dataset_table.php
