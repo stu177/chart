@@ -8,7 +8,7 @@ class CreateChartTable extends Migration
 
     public function up()
     {
-        Schema::create('chart', function($table)
+        Schema::create('stu177_chart', function($table)
         {
             $table->engine = 'InnoDB';
             $table->increments('id');

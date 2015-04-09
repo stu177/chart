@@ -4,7 +4,7 @@ use Model;
 
 class Chart extends Model
 {
-    public $table = "chart";
+    public $table = "stu177_chart";
 
     /*
      * Validation

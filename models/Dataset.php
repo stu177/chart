@@ -4,7 +4,7 @@ use Model;
 
 class Dataset extends Model
 {
-    public $table = "chart_dataset";
+    public $table = "stu177_chart_dataset";
 
     /*
      * Validation

@@ -13,6 +13,7 @@ fields:
     data:
         label: Data
         type: repeater
+        commentAbove: This should match the amount of labels and other datasets if you have them!
         form:
             fields:
                 label:

@@ -4,4 +4,9 @@
 
 columns:
     name: Name
-    type: Type
+    created_at:
+        label: Date Created
+        type: datetime
+    updated_at:
+        label: Last Modified
+        type: timesince

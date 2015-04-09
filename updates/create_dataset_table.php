@@ -8,7 +8,7 @@ class CreateDatasetTable extends Migration
 
     public function up()
     {
-        Schema::create('chart_dataset', function($table)
+        Schema::create('stu177_chart_dataset', function($table)
         {
             $table->engine = 'InnoDB';
             $table->increments('id');

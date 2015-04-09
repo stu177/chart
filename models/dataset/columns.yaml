@@ -4,3 +4,9 @@
 
 columns:
     label: Dataset Name
+    created_at:
+        label: Date Created
+        type: datetime
+    updated_at:
+        label: Last Modified
+        type: timesince

@@ -22,6 +22,7 @@ tabs:
 #                bar: Bar
         labels:
             label: Labels
+            commentAbove: Remember, the amount of labels should match the amount of values in your datasets!
             tab: Labels
             type: repeater
             form:
