@@ -13,7 +13,7 @@ class CreateDatasetTable extends Migration
             $table->engine = 'InnoDB';
             $table->increments('id');
             $table->integer('chart_id')->unsigned()->nullable();
-            $table->foreign('chart_id')->references('id')->on('chart');
+            $table->foreign('chart_id')->references('id')->on('stu177_chart');
             $table->string('label');
             $table->string('colour');
             $table->mediumText('data');
@@ -23,7 +23,7 @@ class CreateDatasetTable extends Migration
 
     public function down()
     {
-        Schema::drop('chart_dataset');
+        Schema::drop('stu177_chart_dataset');
     }
 
 }

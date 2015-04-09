@@ -22,7 +22,7 @@ class CreateChartTable extends Migration
 
     public function down()
     {
-        Schema::drop('chart');
+        Schema::drop('stu177_chart');
     }
 
 }
